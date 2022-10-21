@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './components/imgs/vinisorriso.code.png'
+import React from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+
+export default function App() {
+ 
+    const titulo = 'Hello World'
+    const mensagem = () => {
+      return('mensagem')
+    }
+
+    return (
+      <header>
+          <h2>{titulo}</h2>
+          <p>{mensagem()}</p>   
+          <img src={logo} alt='foto vini sorrindo'/>
       </header>
-    </div>
-  );
+  )
 }
 
-export default App;

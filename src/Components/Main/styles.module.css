@@ -1,0 +1,51 @@
+
+
+.main {
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: 32rem;
+}
+
+.texto {
+     text-align: center;
+     color: #fff;
+}
+
+.texto h2 {
+     font-weight: bolder;
+}
+.texto p {
+     color: rgba(255, 255, 255, 0.479);
+}
+
+.divimage {
+     width: 100%;
+     height: 100%;
+}
+
+
+.divimage img {
+     width: 100%;
+     height: 100%;
+}
+
+
+.cardcontainer{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 800px;
+     padding: 2rem;
+}
+
+
+.card{
+     display: grid;
+     grid-template-columns: 3fr 2fr;
+     background-color:rgb(25, 3, 77);
+     width: 100%;
+     height: 100%;   
+}

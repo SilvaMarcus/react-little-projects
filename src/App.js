@@ -4,7 +4,7 @@ import React from 'react'
 
 
 export default function App() {
- 
+
     const titulo = 'Hello World'
     const mensagem = () => {
       return('mensagem')
@@ -18,4 +18,3 @@ export default function App() {
       </header>
   )
 }
-

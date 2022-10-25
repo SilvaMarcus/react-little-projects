@@ -12,10 +12,10 @@ export default function Header (props) {
 
                <div>
                     <ul className={style.itens} >
-                         <li><a href="">Home</a></li>
-                         <li><a href="">Portfólio</a></li>
-                         <li><a href="">contato</a></li>
-                         <li><a href="">{props.link}</a></li>
+                        <li><a href="Main">Home</a></li>
+                         <li><a href="#">Portfólio</a></li>
+                         <li><a href="#">contato</a></li>
+
                     </ul>
                </div>
 

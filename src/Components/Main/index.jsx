@@ -1,7 +1,7 @@
 import styles from './styles.module.css'
 import cardimage from './imagens/vinisorriso.code.png'
 import Dados from '../Dados'
-
+import Relogio from '../Relogio'
 
 
 
@@ -25,11 +25,8 @@ export default function Main (props) {
                               <p>{props.job}</p>
                               <p>React | Typescript | SQL | NodeJs | </p>
                               <button  className={styles.btn}>Saiba Mais</button>
-                              <Dados 
-                              
-                              somar={somar} 
-                              
-                              />
+                              <Dados somar={somar} />
+                              <Relogio />
                          </div>
 
                          <div className={styles.divimage}>

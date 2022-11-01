@@ -1,30 +1,24 @@
-import Header from './Components/Header'
+
 import Main from './Components/Main'
 import somar from './Components/Dados'
-
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-
-
+import React,{useState} from 'react';
 
 
 
 export default function App () {
+
+const [name, setName] = useState('Marcus')
+
   return (
     <>
     
-    <Header />
-    <Router>
 
-       <Routes>
+    <h1>Meu Nome é :  {name} </h1>
 
-           
-           <Route path='Main' element={<Main />}/>
-          
 
-       </Routes>
-
-    </Router>
+    <button onClick={() =>  setName(name + " Vinicius") } > Add 2° nome: </button>
 
     </>
   )
+
 }

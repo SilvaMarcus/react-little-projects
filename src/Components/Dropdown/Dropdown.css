@@ -1,14 +1,14 @@
-.campo-texto {
+.Dropdown {
      margin: 24px 0;
 }
 
-.campo-texto label {
+.Dropdown label {
      display: block;
      margin-bottom: 8px;
      font-size: 20px;
 }
 
-.campo-texto input {
+.Dropdown select {
      background-color: #fff;
      box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.07);
      width: 100%;
@@ -18,20 +18,8 @@
      box-sizing: border-box;
 }
 
-.campo-texto {
-     margin: 24px 0;
-}
-
-.campo-texto label {
-     display: block;
-     margin-bottom: 8px;
-     font-size: 20px;
-}
-
-
-input:focus { 
+select:focus { 
      outline: none;
      border-color: #719ECE;
      box-shadow: 0 0 10px #719ECE;
 }
-
